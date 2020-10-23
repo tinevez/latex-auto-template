@@ -1,0 +1,38 @@
+\documentclass[times, twoside]{zHenriquesLab-StyleBioRxiv}
+\usepackage{blindtext}
+\usepackage[overload]{textcase}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% \usepackage{layouts}
+% This bit is for the to-do list
+% -------
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+% -------
+
+% JYT commands
+\newcommand{\TODO}{\textcolor{red}{TODO}\xspace}
+\hyphenation{DeProj}
+\hyphenation{Local-Z-Projector}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{1.5}
+
+
+\begin{document}
+
+    \include{src/01_Article_MainText}
+    \include{src/02_Article_Methods}
+    \include{src/03_Article_Supplementary}
+    \include{src/04_Article_WordCount}
+    \include{src/05_ToDoList}
+
+\end{document}
