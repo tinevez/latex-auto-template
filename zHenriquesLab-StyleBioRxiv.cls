@@ -22,8 +22,8 @@
 \DeclareOption{rmabstract}{\bfabstractfalse}
 \newif\ifbibskip        \bibskipfalse
 \DeclareOption{bibskip}{\bibskiptrue}
-\newif\ifwatermark        \watermarkfalse
-\DeclareOption{watermark}{\watermarktrue}
+% \newif\ifwatermark        \watermarkfalse
+% \DeclareOption{watermark}{\watermarktrue}
 
 \DeclareOption{draft}{\PassOptionsToClass{draft}{article}}
 \DeclareOption{times}{\@timestrue}
@@ -263,12 +263,12 @@
 \captionsetup*{format=smallformat}
 
 % %% Watermark 
-\usepackage[printwatermark]{xwatermark}
-\AtBeginDocument{%
-  \ifwatermark%
-  \newwatermark[allpages,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
-  \fi
-}
+% \usepackage[printwatermark]{xwatermark}
+% \AtBeginDocument{%
+%   \ifwatermark%
+%   \newwatermark[allpages,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
+%   \fi
+% }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Henriques lab parts adapted from PNAS - END %%
