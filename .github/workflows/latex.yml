@@ -9,11 +9,11 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
-            root_file: 00_Article_Merge.tex
+            root_file: Article.tex
     - name: Move files
       run: |
         mkdir ./pdf
-        mv ./00_Article_Merge.pdf ./pdf/Article.pdf
+        mv ./Article.pdf ./pdf/Article.pdf
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
