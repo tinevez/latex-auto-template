@@ -7,7 +7,7 @@ jobs:
     - name: Set up Git repository
       uses: actions/checkout@v2
     - name: Compile LaTeX document
-      uses: xu-cheng/latex-action@v2
+      uses:  truatpasteurdotfr/latex-action@v0.0.0-alpha
       with:
             root_file: Article.tex
     - name: Move files
