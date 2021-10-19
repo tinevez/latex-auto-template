@@ -15,7 +15,7 @@ jobs:
     - name: Move files
       run: |
         mkdir ./pdf
-        mv ./Article.pdf ./pdf/Article.pdf
+        mv ./latex/Article.pdf ./pdf/Article.pdf
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
