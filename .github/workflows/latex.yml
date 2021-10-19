@@ -9,7 +9,8 @@ jobs:
     - name: Compile LaTeX document
       uses:  truatpasteurdotfr/latex-action@v0.0.0-alpha
       with:
-            root_file: latex/Article.tex
+            root_file: Article.tex
+            working_directory: latex
     - name: Move files
       run: |
         mkdir ./pdf
