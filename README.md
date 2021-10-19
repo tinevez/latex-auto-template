@@ -1,4 +1,5 @@
-[![Build Status](https://github.com/tinevez/latex-auto-template/workflows/Build%20LaTeX%20document/badge.svg)](https://github.com/truatpasteurdotfr/latex-auto-template/actions)
+[![Build LaTeX document](https://github.com/truatpasteurdotfr/latex-auto-template/actions/workflows/latex.yml/badge.svg)](https://github.com/truatpasteurdotfr/latex-auto-template/actions/workflows/latex.yml)
+
 [![PDF
 Link](https://img.shields.io/badge/PDF-latest-orange.svg?style=flat)](https://truatpasteurdotfr.github.io/latex-auto-template/Article.pdf)
 
