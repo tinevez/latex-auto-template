@@ -11,7 +11,7 @@
 
 | Order | First name | Middle initials | Last name | ORCID               | Email                        | Affiliation ID | Equal contribution | Corresponding author |
 | ----- | ---------- | --------------- | --------- | ------------------- | ---------------------------- | -------------- | ------------------ | -------------------- |
-| 1     | Quang Tru  |                 | Huynh     |                     | quang-tru.huynh@pasteur.fr   | 1, 2           | *                  |                      |
+| 1     | Quang Tru  |                 | Huynh     |                     | tru@pasteur.fr   | 1, 2           | *                  |                      |
 | 2     | Ricardo    |                 | Henriques | 0000-0002-2043-5234 | jhenriques@igc.gulbenkian.pt | 3              |                    | *                    |
 | 3     | Jean-Yves  |                 | Tinevez   | 0000-0002-0998-4718 | tinevez@pasteur.fr           | 4              |                    | *                    |
 
